@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
     const botaoAcessibilidade = document.getElementById('botao-acessibilidade');
-    const opcoesDeAcessibilidade = docum.getElementById('opcoes-acessibilidade');
+    const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade');
 
     botaoAcessibilidade.addEventListener('click', function(){
         botaoAcessibilidade.classList.toggle('rotacao-botao');
-        botaoAcessibilidade.classList.toggle('apresenta-lista');
+        opcoesDeAcessibilidade.classList.toggle('apresenta-lista');
     })
 
     let tamanhoAtualFonte = 1;
