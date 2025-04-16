@@ -5,6 +5,14 @@ document.addEventListener('DOMContentLoaded', function () {
     botaoAcessibilidade.addEventListener('click', function(){
         botaoAcessibilidade.classList.toggle('rotacao-botao');
         opcoesDeAcessibilidade.classList.toggle('apresenta-lista');
+    
+    
+    })
+
+    cosnt alternaContraste = document.getElementById('alterna-contraste')
+
+    alternaContraste.addEventListener('click' function(){
+        document.body.classList.toggle('alto-contraste')
     })
 
     let tamanhoAtualFonte = 1;
